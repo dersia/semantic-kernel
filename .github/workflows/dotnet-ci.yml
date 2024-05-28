@@ -7,8 +7,6 @@ name: dotnet-ci
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron:  '0 7 * * *'
 
 permissions:
   contents: read
